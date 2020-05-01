@@ -1,4 +1,4 @@
-package com.MohammadZaidShaikh.chat;
+package com.MohammadZaidShaikh.chat.Activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,6 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.MohammadZaidShaikh.chat.Adapter.MessageAdapter;
+import com.MohammadZaidShaikh.chat.R;
 import com.bumptech.glide.Glide;
 import com.MohammadZaidShaikh.chat.Model.Chat;
 import com.MohammadZaidShaikh.chat.Model.User;

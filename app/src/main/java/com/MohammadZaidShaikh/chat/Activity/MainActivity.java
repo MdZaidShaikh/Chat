@@ -1,4 +1,4 @@
-package com.MohammadZaidShaikh.chat;
+package com.MohammadZaidShaikh.chat.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,6 +16,7 @@ import androidx.viewpager.widget.ViewPager;
 import com.MohammadZaidShaikh.chat.Adapter.ViewPagerAdapter;
 import com.MohammadZaidShaikh.chat.Fragment.ChatsFragment;
 import com.MohammadZaidShaikh.chat.Fragment.StatusFragment;
+import com.MohammadZaidShaikh.chat.R;
 import com.bumptech.glide.Glide;
 import com.MohammadZaidShaikh.chat.Model.User;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;

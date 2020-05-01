@@ -1,4 +1,4 @@
-package com.MohammadZaidShaikh.chat;
+package com.MohammadZaidShaikh.chat.Activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +10,7 @@ import android.os.Bundle;
 
 import com.MohammadZaidShaikh.chat.Adapter.UserAdapter;
 import com.MohammadZaidShaikh.chat.Model.User;
+import com.MohammadZaidShaikh.chat.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;

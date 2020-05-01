@@ -10,21 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.MohammadZaidShaikh.chat.MessageActivity"
-            android:parentActivityName="com.MohammadZaidShaikh.chat.UsersActivity"/>
+            android:name="com.MohammadZaidShaikh.chat.Activity.MessageActivity"
+            android:parentActivityName="com.MohammadZaidShaikh.chat.Activity.UsersActivity"/>
         <activity
-            android:name="com.MohammadZaidShaikh.chat.UsersActivity"
-            android:parentActivityName="com.MohammadZaidShaikh.chat.MainActivity" />
+            android:name="com.MohammadZaidShaikh.chat.Activity.UsersActivity"
+            android:parentActivityName="com.MohammadZaidShaikh.chat.Activity.MainActivity" />
         <activity
-            android:name="com.MohammadZaidShaikh.chat.LoginActivity"
-            android:parentActivityName="com.MohammadZaidShaikh.chat.StartActivity" />
+            android:name="com.MohammadZaidShaikh.chat.Activity.LoginActivity"
+            android:parentActivityName="com.MohammadZaidShaikh.chat.Activity.StartActivity" />
         <activity
-            android:name="com.MohammadZaidShaikh.chat.MainActivity"
-            android:parentActivityName="com.MohammadZaidShaikh.chat.StartActivity" />
+            android:name="com.MohammadZaidShaikh.chat.Activity.MainActivity"
+            android:parentActivityName="com.MohammadZaidShaikh.chat.Activity.StartActivity" />
         <activity
-            android:name="com.MohammadZaidShaikh.chat.RegisterActivity"
-            android:parentActivityName="com.MohammadZaidShaikh.chat.StartActivity" />
-        <activity android:name="com.MohammadZaidShaikh.chat.StartActivity">
+            android:name="com.MohammadZaidShaikh.chat.Activity.RegisterActivity"
+            android:parentActivityName="com.MohammadZaidShaikh.chat.Activity.StartActivity" />
+        <activity android:name="com.MohammadZaidShaikh.chat.Activity.StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -11,7 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.MohammadZaidShaikh.chat.MessageActivity;
+import com.MohammadZaidShaikh.chat.Activity.MessageActivity;
 import com.MohammadZaidShaikh.chat.R;
 import com.bumptech.glide.Glide;
 import com.MohammadZaidShaikh.chat.Model.User;
