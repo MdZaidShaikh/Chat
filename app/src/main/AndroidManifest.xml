@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.chat">
+    package="com.MohammadZaidShaikh.chat">
 
     <application
         android:allowBackup="true"
@@ -10,21 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MessageActivity"
-            android:parentActivityName=".UsersActivity"/>
+            android:name="com.MohammadZaidShaikh.chat.MessageActivity"
+            android:parentActivityName="com.MohammadZaidShaikh.chat.UsersActivity"/>
         <activity
-            android:name=".UsersActivity"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.MohammadZaidShaikh.chat.UsersActivity"
+            android:parentActivityName="com.MohammadZaidShaikh.chat.MainActivity" />
         <activity
-            android:name=".LoginActivity"
-            android:parentActivityName=".StartActivity" />
+            android:name="com.MohammadZaidShaikh.chat.LoginActivity"
+            android:parentActivityName="com.MohammadZaidShaikh.chat.StartActivity" />
         <activity
-            android:name=".MainActivity"
-            android:parentActivityName=".StartActivity" />
+            android:name="com.MohammadZaidShaikh.chat.MainActivity"
+            android:parentActivityName="com.MohammadZaidShaikh.chat.StartActivity" />
         <activity
-            android:name=".RegisterActivity"
-            android:parentActivityName=".StartActivity" />
-        <activity android:name=".StartActivity">
+            android:name="com.MohammadZaidShaikh.chat.RegisterActivity"
+            android:parentActivityName="com.MohammadZaidShaikh.chat.StartActivity" />
+        <activity android:name="com.MohammadZaidShaikh.chat.StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

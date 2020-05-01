@@ -1,4 +1,4 @@
-package com.example.chat;
+package com.MohammadZaidShaikh.chat;
 
 import android.content.Intent;
 import android.os.Bundle;
