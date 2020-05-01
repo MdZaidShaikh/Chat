@@ -15,6 +15,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.MohammadZaidShaikh.chat.Adapter.MessageAdapter;
 import com.bumptech.glide.Glide;
 import com.MohammadZaidShaikh.chat.Model.Chat;
 import com.MohammadZaidShaikh.chat.Model.User;

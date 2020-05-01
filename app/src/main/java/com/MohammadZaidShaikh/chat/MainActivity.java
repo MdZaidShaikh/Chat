@@ -13,6 +13,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager.widget.ViewPager;
 
+import com.MohammadZaidShaikh.chat.Adapter.ViewPagerAdapter;
+import com.MohammadZaidShaikh.chat.Fragment.ChatsFragment;
+import com.MohammadZaidShaikh.chat.Fragment.StatusFragment;
 import com.bumptech.glide.Glide;
 import com.MohammadZaidShaikh.chat.Model.User;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;

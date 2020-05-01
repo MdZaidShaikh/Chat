@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:602237979455:android:d6c030503a9bec4c3f618a",
+        "mobilesdk_app_id": "1:602237979455:android:c7d3632c1bfee8353f618a",
         "android_client_info": {
-          "package_name": "com.example.chat"
+          "package_name": "com.MohammadZaidShaikh.chat"
         }
       },
       "oauth_client": [

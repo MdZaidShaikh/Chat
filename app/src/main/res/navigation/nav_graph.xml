@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.MohammadZaidShaikh.chat.ChatsFragment"
+        android:name="com.MohammadZaidShaikh.chat.Fragment.ChatsFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_chats" >
 
@@ -18,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="com.MohammadZaidShaikh.chat.StatusFragment"
+        android:name="com.MohammadZaidShaikh.chat.Fragment.StatusFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_status" >
 

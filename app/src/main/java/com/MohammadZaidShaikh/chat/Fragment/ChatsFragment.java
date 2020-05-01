@@ -1,4 +1,4 @@
-package com.MohammadZaidShaikh.chat;
+package com.MohammadZaidShaikh.chat.Fragment;
 
 import android.os.Bundle;
 
@@ -13,6 +13,8 @@ import android.view.ViewGroup;
 
 import com.MohammadZaidShaikh.chat.Model.Chat;
 import com.MohammadZaidShaikh.chat.Model.User;
+import com.MohammadZaidShaikh.chat.R;
+import com.MohammadZaidShaikh.chat.Adapter.UserAdapter;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;

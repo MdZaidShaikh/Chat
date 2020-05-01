@@ -1,4 +1,4 @@
-package com.MohammadZaidShaikh.chat;
+package com.MohammadZaidShaikh.chat.Adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.MohammadZaidShaikh.chat.R;
 import com.bumptech.glide.Glide;
 import com.MohammadZaidShaikh.chat.Model.Chat;
 import com.google.firebase.auth.FirebaseAuth;

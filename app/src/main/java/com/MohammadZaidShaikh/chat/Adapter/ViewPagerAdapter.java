@@ -1,4 +1,4 @@
-package com.MohammadZaidShaikh.chat;
+package com.MohammadZaidShaikh.chat.Adapter;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
