@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 User user = dataSnapshot.getValue(User.class);
                 username.setText(user.getUsername());
                 if (user.getImageURL().equals("default")){
-                    profileImage.setImageResource(R.mipmap.ic_launcher);
+                    profileImage.setImageResource(R.drawable.ic_profile);
                 }
                 else {
                     Glide.with(MainActivity.this).load(user.getImageURL()).into(profileImage);
@@ -90,6 +90,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        profileImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ProfileActivity.class));
+            }
+        });
+
     }
 
     @Override
@@ -106,6 +113,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, StartActivity.class));
                 finish();
                 return true;
+            case R.id.profile:
+                startActivity(new Intent(MainActivity.this, ProfileActivity.class));
         }
         return false;
     }

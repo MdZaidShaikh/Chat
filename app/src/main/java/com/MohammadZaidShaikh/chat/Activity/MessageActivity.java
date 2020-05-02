@@ -80,7 +80,7 @@ public class MessageActivity extends AppCompatActivity {
                 username.setText(user.getUsername());
 
                 if (user.getImageURL().equals("default")){
-                    profileImage.setImageResource(R.mipmap.ic_launcher_round);
+                    profileImage.setImageResource(R.drawable.ic_profile);
                 }
                 else {
                     Glide.with(MessageActivity.this).load(user.getImageURL()).into(profileImage);

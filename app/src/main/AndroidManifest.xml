@@ -10,21 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.MohammadZaidShaikh.chat.Activity.MessageActivity"
-            android:parentActivityName="com.MohammadZaidShaikh.chat.Activity.UsersActivity"/>
+            android:name=".Activity.ProfileActivity"
+            android:parentActivityName=".Activity.MainActivity"/>
         <activity
-            android:name="com.MohammadZaidShaikh.chat.Activity.UsersActivity"
-            android:parentActivityName="com.MohammadZaidShaikh.chat.Activity.MainActivity" />
+            android:name=".Activity.MessageActivity"
+            android:parentActivityName=".Activity.UsersActivity" />
         <activity
-            android:name="com.MohammadZaidShaikh.chat.Activity.LoginActivity"
-            android:parentActivityName="com.MohammadZaidShaikh.chat.Activity.StartActivity" />
+            android:name=".Activity.UsersActivity"
+            android:parentActivityName=".Activity.MainActivity" />
         <activity
-            android:name="com.MohammadZaidShaikh.chat.Activity.MainActivity"
-            android:parentActivityName="com.MohammadZaidShaikh.chat.Activity.StartActivity" />
+            android:name=".Activity.LoginActivity"
+            android:parentActivityName=".Activity.StartActivity" />
         <activity
-            android:name="com.MohammadZaidShaikh.chat.Activity.RegisterActivity"
-            android:parentActivityName="com.MohammadZaidShaikh.chat.Activity.StartActivity" />
-        <activity android:name="com.MohammadZaidShaikh.chat.Activity.StartActivity">
+            android:name=".Activity.MainActivity"
+            android:parentActivityName=".Activity.StartActivity" />
+        <activity
+            android:name=".Activity.RegisterActivity"
+            android:parentActivityName=".Activity.StartActivity" />
+        <activity android:name=".Activity.StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
