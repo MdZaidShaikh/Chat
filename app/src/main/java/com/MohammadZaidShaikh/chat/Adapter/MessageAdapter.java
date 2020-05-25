@@ -18,6 +18,8 @@ import com.google.firebase.auth.FirebaseUser;
 
 import java.util.List;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.ViewHolder> {
 
     public static final int MSG_TYPE_RECEIVER = 0;

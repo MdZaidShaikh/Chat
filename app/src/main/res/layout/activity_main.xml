@@ -23,7 +23,7 @@
                 android:background="@color/colorPrimary"
                 app:contentInsetStartWithNavigation="0dp">
 
-                <ImageView
+                <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/profileImage"
                     android:layout_width="30dp"
                     android:layout_height="30dp"

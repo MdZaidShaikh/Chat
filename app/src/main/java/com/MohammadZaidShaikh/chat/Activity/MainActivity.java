@@ -29,9 +29,11 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 public class MainActivity extends AppCompatActivity {
 
-    ImageView profileImage;
+    CircleImageView profileImage;
     TextView username;
     Toolbar toolbar;
     TabLayout tabLayout;

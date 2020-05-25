@@ -32,9 +32,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 public class MessageActivity extends AppCompatActivity {
 
-    ImageView profileImage;
+    CircleImageView profileImage;
     TextView username;
     FirebaseUser firebaseUser;
     DatabaseReference reference;
